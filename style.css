@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F7FF;
+  height: 64px;
+  font-family: "Archivo", sans-serif;
+  font-size: 10px;
+}
+
+nav .img-texto {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav {
+  background-image: url("./imgs/jordan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 465px;
+  font-family: "Archivo", sans-serif;
+}
+
+nav .container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav .texto-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+  height: 100%;
+  color: #fafafa;
+  gap: 16px;
+  margin-left: 350px;
+}
+
+nav .texto-nav h3 {
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+nav .texto-nav h4 p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+main .texto-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 64px 0;
+  font-family: "Archivo", sans-serif;
+}
+
+main .texto-main h1 {
+  font-size: 28px;
+}
+
+article .cards-pricing {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Archivo", sans-serif;
+  width: 100%;
+  place-items: center;
+}
+
+.cards-pricing .cards img {
+  display: flex;
+  background-color: #F3F7FF;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  border-radius: 4px;
+  margin: 16px;
+  width: 380px;
+}
+
+.cards-pricing .cards .texto-cards{
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.cards-pricing .cards p span {
+  text-decoration: none;
+  color: #7CA2F4;
+  font-size: 20px;
+}
+
+.cards-pricing .cards .texto-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
